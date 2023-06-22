@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Mapping</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="_10120078_if2">10120078 - IF2</string>
+    <string name="alvin_izza_rohman">Alvin Izza Rohman</string>
+    <string name="title_activity_maps">MapsActivity</string>
+</resources>

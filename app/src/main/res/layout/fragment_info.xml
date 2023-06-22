@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--    10120078 - Alvin Izza Rohman -IF2-->
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".infoFragment"
+    android:background="@color/white">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/potomaps"
+            android:layout_width="300dp"
+            android:layout_height="250dp"
+            android:layout_marginTop="168dp"
+            android:layout_marginEnd="56dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/maps"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/pregular"
+            android:text="Pada aplikasi ini dibuat guna menunjang pembelajaran pada mata kuliah aplikasi komputer bergerak. Tugas kali ini dengan memanfaatkan sensor-sensor yang ada di android. salah satunya maps"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.491"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/potomaps" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>
